@@ -15,10 +15,15 @@ module.exports = function (grunt) {
           'public/index.html': ['client/index.jade']
         }
       }
+    },
+    watch: {
+      files: ['client/**/*.js', 'client/**/*.jade'],
+      tasks: ['jade', 'browserify']
     }
   });
 
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 };
 
