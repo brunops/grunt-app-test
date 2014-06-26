@@ -1,0 +1,16 @@
+{
+  "name": "grunt-base-project",
+  "version": "0.0.0",
+  "description": "Base project using grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "npm",
+    "browserify"
+  ],
+  "author": "brunops",
+  "license": "MIT"
+}
