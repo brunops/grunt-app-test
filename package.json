@@ -4,6 +4,7 @@
   "description": "Base project using grunt",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm install -g grunt-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,8 @@
     "browserify"
   ],
   "author": "brunops",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
